@@ -1,18 +1,47 @@
-# React + Vite
+# Bootchamp Digital Academy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Vite + React + TypeScript front-end for the Bootchamp Digital Academy experience. The UI leverages shadcn/ui primitives, Tailwind CSS, and a collection of reusable components under `src/components`.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```pwsh
+git clone <REPO_URL>
+cd bootchamp-digital-academy
+npm install
+npm run dev
+```
 
-## React Compiler
+The dev server listens on port `8080` (see `vite.config.ts`). Update the port in that file if the default conflicts with another local service.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Available Scripts
 
-Note: This will impact Vite dev & build performances.
+- `npm run dev` – start Vite in development mode with fast HMR.
+- `npm run build` – create a production build.
+- `npm run build:dev` – build with `NODE_ENV=development`, handy for debugging prod-only issues.
+- `npm run preview` – preview the production build locally.
+- `npm run lint` – run ESLint across the repo.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18 with React Router
+- TypeScript + Vite + @vitejs/plugin-react-swc
+- Tailwind CSS + shadcn/ui component patterns
+- TanStack Query, React Hook Form, Zod, Recharts, and other supporting libs (see `package.json` for the full list)
+
+## Project Structure
+
+- `src/components` – shared UI elements and feature sections (hero, programs, etc.).
+- `src/pages` – route-level components used by React Router.
+- `src/hooks`, `src/lib` – composable utilities and helper functions.
+- `public` – static assets served as-is by Vite.
+
+## Deployment
+
+Any static hosting provider that supports serving the contents of `dist/` will work (Netlify, Vercel, GitHub Pages, Cloudflare Pages, etc.). Typical flow:
+
+```pwsh
+npm run build
+# upload the dist/ folder to your host of choice
+```
+
+Remember to configure your host for SPA-style routing (rewrite unknown routes to `index.html`) so client-side navigation works.
