@@ -1,47 +1,109 @@
-# Bootchamp Digital Academy
+# 🚀 Bootchamp Digital Academy 🚀
 
-A Vite + React + TypeScript front-end for the Bootchamp Digital Academy experience. The UI leverages shadcn/ui primitives, Tailwind CSS, and a collection of reusable components under `src/components`.
+selamat datang di repositori resmi website **bootchamp**! 💖  
+platform ini didedikasikan untuk memberdayakan generasi muda melalui keterampilan digital terdepan, pelatihan kepemimpinan visioner, dan proyek dunia nyata yang berdampak. 🌟
 
-## Getting Started
+---
 
-```pwsh
-git clone <REPO_URL>
-cd bootchamp-digital-academy
+## 💖 tim pengembang kami 💖
+
+proyek ini dibangun oleh tim developer yang penuh semangat. kenalan yuk! 👋
+
+| nama                 | npm        |
+|----------------------|------------|
+| adinda salsabila     | 2215061035 |
+| melda frestiana      | 2215061130 |
+| safitri mutiara putri| 2215061028 |
+
+---
+
+## 📖 ikhtisar proyek
+
+bootchamp bukan hanya platform belajar—ini adalah **komunitas**.  
+tujuannya adalah menjembatani kesenjangan antara pendidikan dan industri dengan menyediakan ruang bagi inovator muda untuk belajar, terhubung, dan membuat proyek yang bermakna.
+
+---
+
+## ✨ fitur-fitur utama
+
+- 🏠 **halaman utama** — hero section, value proposition, dan program unggulan  
+- 📚 **programs** — daftar bootcamp lengkap + filter  
+- 🏆 **success stories** — galeri alumni  
+- 🗓️ **events** — mendatang & telah berlalu  
+- 💬 **komunitas** — halaman forum mini
+
+---
+
+## 🛠️ tech stack
+
+- react 18 + vite ⚡  
+- typescript  
+- tailwind css  
+- shadcn/ui 🎨  
+- react router v6  
+- eslint + typescript eslint  
+
+---
+
+## 🖥️ memulai proyek lokal
+
+### 1️⃣ clone repositori
+```bash
+git clone https://github.com/raionclaire/bootchamp-website.git
+```
+
+### 2️⃣ masuk direktori
+```bash
+cd bootchamp-website
+```
+
+### 3️⃣ install dependencies
+```bash
 npm install
+```
+
+### 4️⃣ jalankan dev server
+```bash
 npm run dev
 ```
 
-The dev server listens on port `8080` (see `vite.config.ts`). Update the port in that file if the default conflicts with another local service.
+buka → http://localhost:8080 🎉
 
-## Available Scripts
+---
 
-- `npm run dev` – start Vite in development mode with fast HMR.
-- `npm run build` – create a production build.
-- `npm run build:dev` – build with `NODE_ENV=development`, handy for debugging prod-only issues.
-- `npm run preview` – preview the production build locally.
-- `npm run lint` – run ESLint across the repo.
+## 📜 npm scripts
 
-## Tech Stack
-
-- React 18 with React Router
-- TypeScript + Vite + @vitejs/plugin-react-swc
-- Tailwind CSS + shadcn/ui component patterns
-- TanStack Query, React Hook Form, Zod, Recharts, and other supporting libs (see `package.json` for the full list)
-
-## Project Structure
-
-- `src/components` – shared UI elements and feature sections (hero, programs, etc.).
-- `src/pages` – route-level components used by React Router.
-- `src/hooks`, `src/lib` – composable utilities and helper functions.
-- `public` – static assets served as-is by Vite.
-
-## Deployment
-
-Any static hosting provider that supports serving the contents of `dist/` will work (Netlify, Vercel, GitHub Pages, Cloudflare Pages, etc.). Typical flow:
-
-```pwsh
-npm run build
-# upload the dist/ folder to your host of choice
+```bash
+npm run dev      # hot reload dev server
+npm run build    # produksi
+npm run preview  # preview build
+npm run lint     # linter
 ```
 
-Remember to configure your host for SPA-style routing (rewrite unknown routes to `index.html`) so client-side navigation works.
+---
+
+## 📂 struktur proyek
+
+```plaintext
+bootchamp-website/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── components/ui/
+│   ├── pages/
+│   ├── lib/
+│   ├── assets/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+---
+
+✨ terima kasih sudah mampir!  
+jangan lupa ⭐ repo-nya kalau suka!
