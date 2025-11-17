@@ -1,13 +1,13 @@
 # 🚀 Bootchamp Digital Academy 🚀
 
 selamat datang di repositori resmi website **bootchamp**! 💖  
-platform ini didedikasikan untuk memberdayakan generasi muda melalui keterampilan digital terdepan, pelatihan kepemimpinan visioner, dan proyek dunia nyata yang berdampak. 🌟
+platform ini didedikasikan untuk memberdayakan generasi muda terutama gen z melalui keterampilan digital terdepan, pelatihan kepemimpinan visioner dengan enjoy dan tetap berkreasi.
 
 ---
 
-## 💖 tim pengembang kami 💖
+## 💖 tim pengembang tor monitor ketua💖
 
-proyek ini dibangun oleh tim developer yang penuh semangat. kenalan yuk! 👋
+proyek ini dibangun oleh tim developer yang penuh semangat. kenalan yuk! 
 
 | nama                 | npm        |
 |----------------------|------------|
@@ -17,14 +17,14 @@ proyek ini dibangun oleh tim developer yang penuh semangat. kenalan yuk! 👋
 
 ---
 
-## 📖 ikhtisar proyek
+##  penjelasan singkat 
 
-bootchamp bukan hanya platform belajar—ini adalah **komunitas**.  
+bootchamp bukan hanya platform belajar dimana sering disebut **komunitas**.  
 tujuannya adalah menjembatani kesenjangan antara pendidikan dan industri dengan menyediakan ruang bagi inovator muda untuk belajar, terhubung, dan membuat proyek yang bermakna.
 
 ---
 
-## ✨ fitur-fitur utama
+## fitur-fitur utama
 
 - 🏠 **halaman utama** — hero section, value proposition, dan program unggulan  
 - 📚 **programs** — daftar bootcamp lengkap + filter  
@@ -34,18 +34,18 @@ tujuannya adalah menjembatani kesenjangan antara pendidikan dan industri dengan 
 
 ---
 
-## 🛠️ tech stack
+## tech stack
 
-- react 18 + vite ⚡  
+- react 18 + vite 
 - typescript  
 - tailwind css  
-- shadcn/ui 🎨  
+- shadcn/ui 
 - react router v6  
 - eslint + typescript eslint  
 
 ---
 
-## 🖥️ memulai proyek lokal
+## halo kakak panitia, yuk memulai proyek lokal tim kami dengan hal berikut.
 
 ### 1️⃣ clone repositori
 ```bash
@@ -67,11 +67,11 @@ npm install
 npm run dev
 ```
 
-buka → http://localhost:8080 🎉
+buka → http://localhost:8080 
 
 ---
 
-## 📜 npm scripts
+## npm scripts
 
 ```bash
 npm run dev      # hot reload dev server
@@ -82,7 +82,7 @@ npm run lint     # linter
 
 ---
 
-## 📂 struktur proyek
+## 📂 struktur proyek 
 
 ```plaintext
 bootchamp-website/
@@ -104,6 +104,4 @@ bootchamp-website/
 ```
 
 ---
-
-✨ terima kasih sudah mampir!  
-jangan lupa ⭐ repo-nya kalau suka!
+semoga senang dengan hasil tim kami, see u kakak panitia.
