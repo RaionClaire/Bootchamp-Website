@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 import SuccessStories from "./pages/SuccessStories";
 import Events from "./pages/Events";
 import Community from "./pages/Community";
+import Login from "./pages/login";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,28 @@ const App = () => (
             path="/community"
             element={<Community />}
           />
+
+          {/* --- RUTE AUTENTIKASI --- */}
+          <Route path="/login" element={<Login />} />
+          <Route
+            path="/signup"
+            element={
+              <Placeholder
+                title="Daftar Akun"
+                description="Halaman ini sedang dalam pembuatan."
+              />
+            }
+          />
+          <Route
+            path="/forgot-password"
+            element={
+              <Placeholder
+                title="Lupa Password"
+                description="Halaman ini sedang dalam pembuatan."
+              />
+            }
+          />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

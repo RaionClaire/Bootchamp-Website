@@ -19,20 +19,22 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 z-10 relative">
         <div className="max-w-3xl animate-fade-in-up">
           <h1 className="text-5xl md:text-6xl font-heading font-bold text-background mb-6 leading-tight">
-            Empowering Youth in the Era of{" "}
-            <span className="text-primary">Disruption</span>
+            Preparing the Next Generation to {" "}
+            <span className="text-primary">Own the Future</span>
           </h1>
           <p className="text-xl md:text-2xl text-background/90 mb-8 leading-relaxed">
             Transform your future with cutting-edge digital skills, visionary leadership training, and real-world projects that make an impact.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
+            <a href="/login">
             <Button
               size="lg"
               className="gradient-primary text-lg px-8 py-6 hover:scale-105 transition-transform"
-            >
-              Join Bootchamp
+            ><a href="/login">
+              Join Bootchamp</a>
               <ArrowRight className="ml-2" size={20} />
             </Button>
+            </a>
             <Button
               size="lg"
               variant="outline"
